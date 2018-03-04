@@ -6,7 +6,9 @@ Trovare FAQ su un sito web è un task critico: gli utenti che navigano nella FAQ
 
 Il seguente task proposto, consiste nel restituire una lista di rilevanti FAQs in corrispondenza di una precisa domanda, data una lista di risposte. Il task consiste nella realizzazione di una rete neurale con Keras.
 
-Nello specifico, la rete prende due input, le questions e le answers e restituisce uno score di similarità. Più la similarità tende ad 1, più la rispsota è correlata alla domanda. Sono stati realizzati due modelli:
+Nello specifico, la rete prende due input, le questions e le answers e restituisce uno score di similarità. Più la similarità tende ad 1, più la rispsota è correlata alla domanda. Pdr questo task sono stati realizzati due modelli.
+
+# Models
 
 ##### Model 1: Conv2D - MaxPooling (Conv2D - MaxPooling)
 Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM. Successivamente viene realizzato un prodotto di matrici tra le matrici di Embedding e Bi-LSTM. I prodotti vengono concatenati in un'unica matrice, la quale viene passata al Convutional2D e successivamente al Maxpooling.
