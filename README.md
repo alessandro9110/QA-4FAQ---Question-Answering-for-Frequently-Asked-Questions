@@ -1,4 +1,4 @@
-# QA-4FAQ---Question-Answering-for-Frequently-Asked-Questions
+# QA-4FAQ --- Question-Answering for Frequently Asked Questions
 
 
 Project Web site : http://qa4faq.github.io/#ref-1
