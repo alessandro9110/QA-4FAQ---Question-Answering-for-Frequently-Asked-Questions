@@ -10,14 +10,14 @@ Nello specifico, la rete prende due input, le questions e le answers e restituis
 
 # Models
 
-##### Model 1: Conv2D - MaxPooling (Conv2D - MaxPooling)
+#### Model 1: Conv2D - MaxPooling (Conv2D - MaxPooling)
 Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM. Successivamente viene realizzato un prodotto di matrici tra le matrici di Embedding e Bi-LSTM. I prodotti vengono concatenati in un'unica matrice, la quale viene passata al Convutional2D e successivamente al Maxpooling.
 Infine il risultato viene passato ad un MLP.
 Il modello restituisce un valore di score che indica la similarità tra domanda e risposta.
 
 
-##### Model 2: Average BiLSTM - Embedding (AVG Embedding - Bi-LSTM)
-Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM. Con Embedding e Bi-LSTM viene calcolata una media e passata al MLP
+#### Model 2: Average BiLSTM - Embedding (AVG Embedding - Bi-LSTM)
+Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM. Con Embedding e Bi-LSTM viene calcolata una media di matrici  e viene  passata al MLP. Il modello restituisce un valore di score che indica la similarità tra domanda e risposta.
 
 
 ### TokW2V.ipynb
