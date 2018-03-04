@@ -1,5 +1,10 @@
 # QA-4FAQ---Question-Answering-for-Frequently-Asked-Questions
+
+
 Project Web site : http://qa4faq.github.io/#ref-1
+Text Analytics Course: http://didawiki.di.unipi.it/doku.php/mds/txa/start
+
+#### Contributors
 
 # Introduction
 Trovare FAQ su un sito web è un task critico: gli utenti che navigano nella FAQ page, potrebbero essere scoraggiati nel non ricevere la giusta risposta ad una precisa domanda. 
