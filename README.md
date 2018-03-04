@@ -5,7 +5,7 @@ Trovare FAQ su un sito web è un task critico: gli utenti che navigano nella FAQ
 
 Il seguente task proposto, consiste nel restituire una lista di rilevanti FAQs in corrispondenza di una precisa domanda, data una lista di risposte. Il task consiste nella realizzazione di una rete neurale con Keras.
 
-### File TokW2V.ipynb
+### TokW2V.ipynb
 
 
 
