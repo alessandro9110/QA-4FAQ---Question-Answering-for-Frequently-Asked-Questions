@@ -1,6 +1,7 @@
 # QA-4FAQ---Question-Answering-for-Frequently-Asked-Questions
-Web site: http://qa4faq.github.io/#ref-1
+Project Web site : http://qa4faq.github.io/#ref-1
 
+# Introduction
 Trovare FAQ su un sito web è un task critico: gli utenti che navigano nella FAQ page, potrebbero essere scoraggiati nel non ricevere la giusta risposta ad una precisa domanda. 
 
 Il seguente task proposto, consiste nel restituire una lista di rilevanti FAQs in corrispondenza di una precisa domanda, data una lista di risposte. Il task consiste nella realizzazione di una rete neurale con Keras.
@@ -14,7 +15,7 @@ Il modello restituisce un valore di score che indica la similarità tra domanda 
 
 
 ##### Model 2: Average BiLSTM - Embedding (AVG Embedding - Bi-LSTM)
-Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM.
+Prende in input questions e answers, i quali input vengono trasformati in Embedding e passati al Bi-LSTM. Con Embedding e Bi-LSTM viene calcolata una media e passata al MLP
 
 
 ### TokW2V.ipynb
