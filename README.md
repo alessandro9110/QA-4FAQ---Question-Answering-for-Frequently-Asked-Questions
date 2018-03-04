@@ -5,6 +5,10 @@ Project Web site : http://qa4faq.github.io/#ref-1
 Text Analytics Course: http://didawiki.di.unipi.it/doku.php/mds/txa/start
 
 #### Contributors
+##### Armillotta Alessandro a.armillotta91@gmail.com
+##### Inversi Alessandro a.inversi@gmail.com 
+##### Savasta Davide d.savasta592@gmail.com 
+
 
 # Introduction
 Trovare FAQ su un sito web è un task critico: gli utenti che navigano nella FAQ page, potrebbero essere scoraggiati nel non ricevere la giusta risposta ad una precisa domanda. 
@@ -38,9 +42,3 @@ Fase di Training per il modello numero 2. Nella fase di training viene effettuat
 ### Answers Predict.ipynb
 Viene effettuata la predict su le Questions Test. Per ogni domanda di test vengono esportate le 25 risposte più simili.
 
-
-
-
-#### Armillotta Alessandro a.armillotta91@gmail.com
-#### Inversi Alessandro a.inversi@gmail.com 
-#### Savasta Davide d.savasta592@gmail.com 
